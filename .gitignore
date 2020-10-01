@@ -1,0 +1,9 @@
+*.o 
+*~ 
+*.root
+*.xml 
+JemEusoOffline
+*.DAWN*
+*/Make-Depend*
+*.txt
+*.npy
