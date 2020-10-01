@@ -4,6 +4,6 @@
 *.xml 
 JemEusoOffline
 *.DAWN*
-*/Make-Depend*
+Make-depend
 *.txt
 *.npy
