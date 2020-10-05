@@ -6,6 +6,6 @@
   xsi:noNamespaceSchemaLocation='@SCHEMALOCATION@/PixelCalibratorJG.xsd'>
 
   <UsePixelCalib> 1 </UsePixelCalib>
-  <PixelCalibFileName> test.dat </PixelCalibFileName>
+  <PixelCalibFileName> SPB2_PerfectUniform_PixelCal.dat</PixelCalibFileName>
 
 </PixelCalibrator>
