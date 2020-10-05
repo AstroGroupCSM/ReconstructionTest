@@ -23,7 +23,7 @@
     <configLink
       id         = "ModuleSequence"
       type       = "XML"
-      xlink:href = "&myConfigFiles;/ModuleSequence_ConexStart.xml"/>
+      xlink:href = "&myConfigFiles;/ModuleSequence_ApertureStart.xml"/>
 
     <configLink
       id         = "EventFileReader"
@@ -53,22 +53,26 @@
       id         = "ElectronicsSimulatorJG"
       type       = "XML"
       xlink:href = "&myConfigFiles;/ElectronicsSimulatorJG.xml"/>
+      <configLink
+       id         = "PixelCalibrator"
+       type       = "XML"
+       xlink:href = "&myConfigFiles;/PixelCalibratorJG.xml"/>
 
  <configLink
-	       id         = "BackgroundSimulatorCSM"
-	             type       = "XML"
-		           xlink:href = "&myConfigFiles;/BackgroundSimulatorCSM.xml"/>
+         id         = "BackgroundSimulatorCSM"
+               type       = "XML"
+               xlink:href = "&myConfigFiles;/BackgroundSimulatorCSM.xml"/>
 
   <configLink
-        id         = "AxisFinderJG"
+        id         = "AxisFinder"
        type       = "XML"
      xlink:href = "&myConfigFiles;/AxisFinderJG.xml"/>
      <configLink
-           id         = "SelectEventsJG"
+           id         = "SelectEvents"
           type       = "XML"
         xlink:href = "&myConfigFiles;/SelectEventsJG.xml"/>
         <configLink
-              id         = "SelectTracksJG"
+              id         = "SelectTracks"
              type       = "XML"
            xlink:href = "&myConfigFiles;/SelectTracksJG.xml"/>
 

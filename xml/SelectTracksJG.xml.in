@@ -5,13 +5,13 @@
                 xsi:noNamespaceSchemaLocation='@SCHEMALOCATION@/SelectTracksJG.xsd'>
 
 
-    <MappingFileName> @SCHEMALOCATION@/EBalloon_mapping.txt </MappingFileName>
+    <MappingFileName> @SCHEMALOCATION@/SPB2_mapping.txt </MappingFileName>
 
      <SelectorAlgorithm>    LinearTimeFit        </SelectorAlgorithm>
 <!-- <SelectorAlgorithm>    NearestNeighbors     </SelectorAlgorithm>  -->
 
-    <TimesSigmaThreshold>  1 </TimesSigmaThreshold>
-    <MinNumberOfPixelsInTrack>    3   </MinNumberOfPixelsInTrack>
+    <TimesSigmaThreshold>  5  </TimesSigmaThreshold>
+    <MinNumberOfPixelsInTrack>    30    </MinNumberOfPixelsInTrack>
     <MaxPixelSpreading>   3   </MaxPixelSpreading>
     <RejectLocalizedTrack>   0   </RejectLocalizedTrack>
 
@@ -25,7 +25,7 @@
 
    <CleanIntegratedTrack>
         <CleaningRadius>       7      </CleaningRadius>
-        <MinNumberOfPixels>    2      </MinNumberOfPixels>
+        <MinNumberOfPixels>    5      </MinNumberOfPixels>
    </CleanIntegratedTrack>
 
 

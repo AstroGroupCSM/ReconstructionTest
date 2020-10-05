@@ -21,7 +21,7 @@
   <!-- in case we use GetLaserShotInfo in the sequence, the source distance will be taken from there (Helicopter-Telescope distance),
        otherwise, the value bellow will be considered -->
 
-  <Distance unit="km"> 35 </Distance>            <!-- will be used if IsDistanceFixed = 1 -->
+  <Distance unit="km"> 24.46 </Distance>            <!-- will be used if IsDistanceFixed = 1 -->
 
   <RemoveFarTimeFitSpots> 0 </RemoveFarTimeFitSpots>
 

@@ -4,11 +4,21 @@
 <SelectEvents   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xsi:noNamespaceSchemaLocation='@SCHEMALOCATION@/SelectEventsJG.xsd'>
 
-    <MappingFileName> @XMLSCHEMALOCATION@/EBalloon_mapping.txt </MappingFileName>
+    <MappingFileName> @XMLSCHEMALOCATION@/SPB2_mapping.txt </MappingFileName>
 
-    <TimesSigmaThreshold>  1 </TimesSigmaThreshold>
 
-    <MinNumberOfPixelsInTrack>     3   </MinNumberOfPixelsInTrack>
+     <TimesSigmaThreshold>  5.  </TimesSigmaThreshold>
+
+    <MinNumberOfPixelsInTrack>    30    </MinNumberOfPixelsInTrack>
+
+    <!-- New config parameters : Enable more control for the user  -->
+
+    <CleaningRadiusForSpot>     3.    </CleaningRadiusForSpot>
+
+    <MinNumberOfPixelsForSpotCleaning>  3   </MinNumberOfPixelsForSpotCleaning>
+
+    <MaxGTUWindow>    10    </MaxGTUWindow>
+
 
 
 </SelectEvents>

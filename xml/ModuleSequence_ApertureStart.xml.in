@@ -16,12 +16,13 @@
 	<module> BackgroundSimulatorCSM      </module>
 	<module> EventBuilderJG              </module>
   <module> TriggerSPB2CSM </module>
- 	<module> SelectEventsJG </module>
+  <module> SelectEventsJG </module>
   <module> PixelCalibratorJG </module>
   <module> SelectTracksJG </module>
   <module> SDPFinderJG </module>
   <module> AddCoordinatesJG </module>
   <module> AxisFinderJG </module>
+  <module> SimRecPlotterJG </module>
   <module> DataWriter </module>
 
 
